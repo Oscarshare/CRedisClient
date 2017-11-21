@@ -1,0 +1,5 @@
+module CRedisClient [system] {
+  header "/usr/local/include/hiredis/hiredis.h"
+  link "hiredis"
+  export *
+}
